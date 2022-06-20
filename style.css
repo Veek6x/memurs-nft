@@ -1,15 +1,20 @@
 /* I started off by styling for mobile then went ahead to add breakpoints for screens wider than 768px on line 90 in the code */
+@font-face {
+  font-family: 'chalkregular';
+  src: url('chalk-regular-webfont.woff2') format('woff2'),
+       url('chalk-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
 body {
   background-image: url("./memur-background.gif");
   margin: 0px;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  font-family: "Chalk", sans-serif;
-  @font-face {
-      font-family: 'Chalk-Regular';
-      src: url('/Chalk-Regular.ttf');
-    }
+  font-family: "chalkregular", sans-serif;
+  
 }
 span {
   color: #757918;
@@ -97,12 +102,9 @@ footer {
     background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: "Chalk", sans-serif;
+    font-family: "chalkregular", sans-serif;
     margin: 0px;
-    @font-face {
-      font-family: 'Chalk-Regular';
-      src: url('/Chalk-Regular.ttf');
-    }
+   
   }
   span {
     color: #757918;
