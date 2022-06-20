@@ -33,7 +33,7 @@ span {
 /* style for main-con */
 /* Added this code so i can put a background coler to make the page more visible */
 .main-con {
-  background-color: hsla(0, 29%, 97%, 0.616)
+  background-color: hsla(0, 29%, 97%, 0.616);
   position: absolute;
   top: 0;
   left: 0;
