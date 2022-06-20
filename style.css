@@ -1,4 +1,4 @@
-/* I started off by styling for mobile then went ahead to add breakpoints for screens wider than 768px on line 86 in the code */
+/* I started off by styling for mobile then went ahead to add breakpoints for screens wider than 768px on line 90 in the code */
 body {
   background-image: url("./memur-background.gif");
   margin: 0px;
@@ -6,6 +6,10 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: "Chalk", sans-serif;
+  @font-face {
+      font-family: 'Chalk-Regular';
+      src: url('/Chalk-Regular.ttf');
+    }
 }
 span {
   color: #757918;
@@ -95,6 +99,10 @@ footer {
     background-attachment: fixed;
     font-family: "Chalk", sans-serif;
     margin: 0px;
+    @font-face {
+      font-family: 'Chalk-Regular';
+      src: url('/Chalk-Regular.ttf');
+    }
   }
   span {
     color: #757918;
