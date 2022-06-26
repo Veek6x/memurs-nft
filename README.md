@@ -1,1 +1,0 @@
-# memurs-nft
